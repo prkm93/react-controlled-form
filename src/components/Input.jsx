@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 function Input() {
     return (
@@ -8,4 +8,4 @@ function Input() {
     )
 }
 
-export default Input
+export default Input;
