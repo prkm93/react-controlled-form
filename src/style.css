@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    margin: 10px 80px;
+    padding: 20px;
+    border:10px solid rgb(224, 208, 208);
+    border-radius: 10px;
+}
