@@ -5,8 +5,9 @@
 }
 
 .box{
-    margin: 10px 80px;
+    margin: 1rem auto;
     padding: 20px;
+    /* width: 100%; */
     border:10px solid rgb(224, 208, 208);
     border-radius: 10px;
 }

@@ -11,14 +11,17 @@ function App() {
     return (
         <div className="container">
             <h1 className="text-center">ReactJs Controlled Form Component</h1>
-            <div className="box">
-                <h3>Pet Adoption Form</h3>
-                <Input/>
-                <Dropdown/>
-                <Checkbox/>
-                <Radio/>
-                <InputNumber/>
-                <Textbox/>
+            <div className="row">
+                <div className="col col-lg-8 box">
+                    <h3>Pet Adoption Form</h3>
+                    <Input/>
+                    <Dropdown/>
+                    <Checkbox/>
+                    <Radio/>
+                    <InputNumber/>
+                    <Textbox/>
+                    <button className="btn btn-primary">Submit</button>
+                </div>
             </div>
         </div>
     )
