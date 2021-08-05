@@ -18,7 +18,12 @@ function FormContainer() {
     const [petDetails, setPetDetails] = useState('');
 
 
-    const handleFormSubmit = () => {
+    const handlePetAdopt = () => {
+
+    }
+
+    const handleFormSubmit = (e) => {
+        e.preventDefault();
         console.log("submit");
     }
 
@@ -42,7 +47,10 @@ function FormContainer() {
                     controlFunc={e => setSelectedAgeRange(e.target.value)}
                 />
                 <Checkbox
-                      
+                    title={'Which kinds of pets would you like to adopt?'}
+                    petOptions={pets}
+                    type={'checkbox'}
+                    controlFunc = {handlePetAdopt}
                 />
                 <Radio/>
                 <InputNumber/>

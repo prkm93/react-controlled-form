@@ -3,7 +3,7 @@ import PropTyes from 'prop-types';
 
 function Dropdown({title, name, options, value, controlFunc}) {
     return (
-        <div className="form-group mt-2 w-50">
+        <div className="form-group mt-4 w-50">
             <select 
                 className="form-select mb-2" 
                 aria-label="Default select example"
@@ -14,7 +14,7 @@ function Dropdown({title, name, options, value, controlFunc}) {
                 <option selected>{title}</option>
                 {
                     options && options.length && options.map((option) => {
-                        return <option value={option} key={option}>{option}</option>
+                        return <option  value={option} key={option}>{option}</option>
                     })
                 }
             </select>
