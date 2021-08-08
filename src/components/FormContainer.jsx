@@ -58,7 +58,12 @@ function FormContainer() {
                  type={'checkbox'}
                  controlFunc = {handlePetAdopt}
                  />
-                <InputNumber/>
+                <InputNumber
+                title={'Which kinds of pets would you like to adopt?'}
+                petOptions={pets}
+                type={'checkbox'}
+                controlFunc = {handlePetAdopt}
+                />
                 <Textbox/>
                 <button className="btn btn-primary">Submit</button>
             </form>
